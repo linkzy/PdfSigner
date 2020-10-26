@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Linkzy</Authors>
+    <Company />
+    <Description>A simple iTextSharp wrapper to help sign PDF documents.</Description>
+    <PackageTags>sign pdf, digital signature, pdf signature</PackageTags>
+    <PackageProjectUrl>https://github.com/linkzy/PdfSigner</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/linkzy/PdfSigner</RepositoryUrl>
+    <PackageLicenseExpression>https://github.com/linkzy/PdfSigner/blob/main/LICENSE</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.2" />
+  </ItemGroup>
+
+</Project>
