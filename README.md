@@ -1,2 +1,2 @@
 # PdfSigner
-A simple iText wrapper to help sign PDF documents.
+A simple iTextSharp wrapper to help sign PDF documents.
