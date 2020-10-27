@@ -8,11 +8,19 @@
     <PackageTags>sign pdf, digital signature, pdf signature</PackageTags>
     <PackageProjectUrl>https://github.com/linkzy/PdfSigner</PackageProjectUrl>
     <RepositoryUrl>https://github.com/linkzy/PdfSigner</RepositoryUrl>
-    <PackageLicenseExpression>https://github.com/linkzy/PdfSigner/blob/main/LICENSE</PackageLicenseExpression>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="iTextSharp" Version="5.5.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
