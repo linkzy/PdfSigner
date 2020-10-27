@@ -12,7 +12,8 @@ var textToShow = String.Format("Signed by: MySelf!!\nSign date: {0}", DateTime.N
 var imageToShow = "https://i.ibb.co/YkPSv3P/dummysing.png";
 
 // Sign the pdf
-var signedDocumentWithImage = PdfSigner.Sign(pdfToSign, certificateToUse, "", textToShow, imageToShow);
+PdfSigner signer = new PdfSigner();
+var signedDocumentWithImage = signer.Sign(pdfToSign, certificateToUse, "", textToShow, imageToShow);
 
 // Save the signed pdf
 File.WriteAllBytes(Directory.GetCurrentDirectory() + @"\\Signed.pdf", signedDocumentWithImage);

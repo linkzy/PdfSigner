@@ -5,11 +5,15 @@
     <Authors>Linkzy</Authors>
     <Company />
     <Description>A simple iTextSharp wrapper to help sign PDF documents.</Description>
-    <PackageTags>sign pdf, digital signature, pdf signature</PackageTags>
+    <PackageTags>sign pdf; digital signature; pdf signature</PackageTags>
     <PackageProjectUrl>https://github.com/linkzy/PdfSigner</PackageProjectUrl>
     <RepositoryUrl>https://github.com/linkzy/PdfSigner</RepositoryUrl>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

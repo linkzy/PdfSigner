@@ -11,7 +11,7 @@ using Org.BouncyCastle.X509;
 
 namespace PdfSigner
 {
-    public static class PdfSigner
+    public class PdfSigner
     {
         /// <summary>
         /// Digitally signs a .pdf using iTextSharp.
@@ -22,7 +22,7 @@ namespace PdfSigner
         /// <param name="signatureText">This text will appear at the bottom of each page in the signed document.</param>
         /// <param name="signatureImageUrl">This image will appear at the bottom of each page in the signed document</param>
         /// <returns></returns>
-        public static byte[] Sign(byte[] document, byte[] certificate, string certificatePassword, string signatureText = null, string signatureImageUrl = null)
+        public byte[] Sign(byte[] document, byte[] certificate, string certificatePassword, string signatureText = null, string signatureImageUrl = null)
         {
             Pkcs12Store store = new Pkcs12Store(new MemoryStream(certificate), certificatePassword.ToCharArray());
 
